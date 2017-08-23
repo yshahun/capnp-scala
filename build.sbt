@@ -1,6 +1,6 @@
 name := "capnproto"
 
-scalaVersion in ThisBuild := "2.11.8"
+scalaVersion in ThisBuild := "2.10"
 
 lazy val root = project.in(file(".")).
   aggregate(runtimeJS, runtimeJVM, capnpcScala, compilerTestJS, compilerTestJVM).
